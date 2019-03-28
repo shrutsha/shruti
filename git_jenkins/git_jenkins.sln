@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "git_jenkins", "git_jenkins\git_jenkins.csproj", "{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "git_jenkinsTest", "TestProject1\git_jenkinsTest.csproj", "{46C221BA-83FA-4A38-87C9-0843FC051BAA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0} = {2BF47A47-02AE-4782-8EB1-58E010E0BCE0}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1BD0778C-D823-4591-9F91-F36753CE99C5}"
+	ProjectSection(SolutionItems) = preProject
+		git_jenkins.vsmdi = git_jenkins.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = git_jenkins.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}.Debug|x86.ActiveCfg = Debug|x86
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}.Debug|x86.Build.0 = Debug|x86
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}.Release|Any CPU.ActiveCfg = Release|x86
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}.Release|Mixed Platforms.Build.0 = Release|x86
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}.Release|x86.ActiveCfg = Release|x86
+		{2BF47A47-02AE-4782-8EB1-58E010E0BCE0}.Release|x86.Build.0 = Release|x86
+		{46C221BA-83FA-4A38-87C9-0843FC051BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C221BA-83FA-4A38-87C9-0843FC051BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C221BA-83FA-4A38-87C9-0843FC051BAA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{46C221BA-83FA-4A38-87C9-0843FC051BAA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{46C221BA-83FA-4A38-87C9-0843FC051BAA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{46C221BA-83FA-4A38-87C9-0843FC051BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C221BA-83FA-4A38-87C9-0843FC051BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C221BA-83FA-4A38-87C9-0843FC051BAA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{46C221BA-83FA-4A38-87C9-0843FC051BAA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{46C221BA-83FA-4A38-87C9-0843FC051BAA}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
